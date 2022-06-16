@@ -31,7 +31,7 @@ https://crates.io/crates/tarantool
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -67,7 +67,7 @@ $ find src | grep -o "\.\w*$" | sort | uniq -c | sort -n | tail -4
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -90,7 +90,7 @@ $ find src | grep -o "\.\w*$" | sort | uniq -c | sort -n | tail -4
 ```
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -112,7 +112,7 @@ t.bar -- error: 'key error: bar'
 ```
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -135,7 +135,7 @@ assert(
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -171,7 +171,7 @@ assert(
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -194,7 +194,7 @@ assert(
 
 source: http://attractivechaos.github.io/plb/
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -223,7 +223,7 @@ source: http://attractivechaos.github.io/plb/
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -247,7 +247,7 @@ end
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -281,7 +281,7 @@ v3[4] = 42
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -303,7 +303,7 @@ v3[4] = 42
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -331,7 +331,7 @@ fn baz(foo: Foo) -> Bar {
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -353,7 +353,7 @@ bar(x)
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -381,7 +381,7 @@ bar(x)
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -403,7 +403,7 @@ $ rustup update
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -427,7 +427,7 @@ $ cargo doc
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -450,7 +450,7 @@ $ cargo doc
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -472,7 +472,7 @@ $ cargo doc
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -502,7 +502,7 @@ $ cargo doc
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -532,7 +532,7 @@ $ cargo doc
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -564,7 +564,7 @@ $ cargo doc
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -609,7 +609,7 @@ $ cargo doc
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -649,7 +649,7 @@ $ cargo new --lib tnt-demo
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -676,7 +676,7 @@ crate-type = ["cdylib"]
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -716,7 +716,7 @@ fn create(space_name: String) -> Result<(), MyError> {
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -753,7 +753,7 @@ fn insert(space_name: String, values: Vec<(usize, String)>)
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -796,7 +796,7 @@ fn get(space_name: String, key: usize)
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -831,7 +831,7 @@ enum MyError {
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -873,7 +873,7 @@ os.exit(0)
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -920,7 +920,7 @@ $ tarantool demo.lua
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -963,7 +963,7 @@ $ tarantool demo.lua
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -996,7 +996,7 @@ $ tarantool demo.lua
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -1041,7 +1041,7 @@ lua.exec("
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -1073,7 +1073,7 @@ let memory: usize = lua.eval("return box.cfg.memtx_memory")?;
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -1114,7 +1114,7 @@ let res: Res = foo_bar.call_with((42, "hello"))?;
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -1149,7 +1149,7 @@ assert_eq!(out.value, "hello");
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -1187,7 +1187,7 @@ assert_eq!(res.1, "hello");
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -1216,7 +1216,7 @@ assert_eq!(res.1, "hello");
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -1251,6 +1251,6 @@ assert_eq!(res.1, "hello");
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ---
