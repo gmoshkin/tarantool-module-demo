@@ -109,7 +109,7 @@ setmetatable(t, {
 
 t.foo -- 42
 t.bar -- error: 'key error: bar'
-
+```
 
 
 
@@ -130,7 +130,7 @@ lib = ffi.load('/path/to/lib.so')
 assert(
     lib.vec_norm({ x = 3, y = 4 }) == 5
 )
-
+```
 
 
 
@@ -417,7 +417,7 @@ $ cargo build
 $ cargo test
 $ cargo run
 $ cargo doc
-
+```
 
 
 
